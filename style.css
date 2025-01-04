@@ -1,0 +1,26 @@
+html {
+    background-color: #eee;
+}
+
+#container {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    gap: 2px;
+}
+
+#container > div {
+    background-color: #fff;
+    border: 1px solid #999;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    /* flex: 1 1 10px; */
+    border-radius: 2px;
+}
+
+#container > div:hover {
+    background-color: #ccc;
+}
